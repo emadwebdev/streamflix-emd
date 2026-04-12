@@ -1,39 +1,18 @@
-<h1 align="center">MERN Netflix Clone 🎬</h1>
+# Netflix-clone
 
-![Demo App](/frontend/public/screenshot-for-readme.png)
+"A full-stack Netflix clone built with the MERN stack (MongoDB, Express, React, Node.js), featuring JWT authentication, TMDB API integration for real-time movie data, and a responsive UI inspired by Netflix’s premium design."
 
-About This Course:
+## 🚀 Key Features
 
-- ⚛️ Tech Stack: React.js, Node.js, Express.js, MongoDB, Tailwind
-- 🔐 Authentication with JWT
-- 📱 Responsive UI
-- 🎬 Fetch Movies and Tv Show
-- 🔎 Search for Actors and Movies
-- 🎥 Watch Trailers
-- 🔥 Fetch Search History
-- 🐱‍👤 Get Similar Movies/Tv Shows
-- 💙 Awesome Landing Page
-- 🌐 Deployment
-- 🚀 And Many More Cool Features
+- **User Authentication**: Secure signup and login functionality using JWT and HTTP-only cookies.
+- **Dynamic Movie Data**: Real-time content fetching from the TMDB API.
+- **Video Streaming**: Integrated trailer playback using `react-player`.
+- **Responsive Design**: Fully optimized for mobile and desktop viewing with Tailwind CSS.
+- **Search & History**: Robust search capabilities with persistent user search history.
 
-### Setup .env file
+## 🛠️ Tech Stack
 
-```bash
-PORT=5000
-MONGO_URI=your_mongo_uri
-NODE_ENV=development
-JWT_SECRET=your_jwt_secre
-TMDB_API_KEY=your_tmdb_api_key
-```
-
-### Run this app locally
-
-```shell
-npm run build
-```
-
-### Start the app
-
-```shell
-npm run start
-```
+- **Frontend**: React.js, Vite, Tailwind CSS
+- **Backend**: Node.js, Express.js
+- **Database**: MongoDB Atlas
+- **Auth**: JSON Web Tokens (JWT)
